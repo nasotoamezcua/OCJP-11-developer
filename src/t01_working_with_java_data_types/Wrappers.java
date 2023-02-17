@@ -131,3 +131,27 @@ C) NumberFormatException.
 D) ArrayIndexOutofBoundsException.
 E) Compile Error --> Respuesta
 */
+
+//What is the result of compiling and running the following program?
+class Boxing2 {
+	static Integer x = 0;
+
+	public static void main(String[] args) {
+		x++;
+		doStuff(x);
+	}
+
+	static void doStuff(int z) {
+		int z2 = 4;
+		System.out.println(z2 + z);
+	}
+}
+
+/*
+Choose an answer:
+A) 0
+B) 5 --> Respuesta
+C) Arroja una excepción: NullpointerException.
+D) El código no compila.
+E) No imprime nada.
+*/
